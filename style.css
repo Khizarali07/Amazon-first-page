@@ -1,0 +1,221 @@
+* {
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#container1 {
+    display: flex;
+    background-color: #0f1111;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.cone {
+    width: 113px;
+    height: 50px;
+    background-image: url(amazon.png);
+    background-size: cover;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+}
+.cone:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.ctwo {
+    width: 94.41px;
+    height: 50px;
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+    display: flex;
+    align-items: center;
+}
+.ctwo ul{
+    list-style-type: none;
+}
+.ctwo:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+#l1 {
+    font-size:x-small;
+}
+#l2 {
+    font-size: larger;
+}
+
+.cthree {
+    width: 520px;
+    padding: 10px 4px 10px 3px;
+    display:flex;
+}
+.cthree select{
+    width: 52px;
+    height: 38px;
+}
+.cthree input{
+    height: 38px;
+    width: 100%;
+}
+.cthree button{
+    background-color: yellow;
+    width: 45px;
+    height: 40px;
+}
+.cthree button:hover{
+    background-color: lawngreen;
+}
+
+.cfour {
+    width: 74px;
+    margin: 0px 0px 0px 1px;
+    display: flex;
+    
+}
+.cfour a{
+    height: 50px;
+    padding: 0px 9px 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    color: white;
+    align-content: center;
+}
+.cfour a:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.cfive {
+    width: 132px;
+    display: flex;
+}
+.cfive a{
+    height: 50px;
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    padding: 0px 9px 10px;
+    text-decoration-line: none;
+    align-content: center;
+}
+.cfive ul {
+    list-style-type: none;
+}
+.cfive a:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+#l3 {
+    font-size: x-small;
+}
+#l4 {
+    font-size:medium;
+
+}
+
+.csix {
+    display: flex;
+}
+.csix a{
+    height: 50px;
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    padding: 0px 9px 10px;
+    text-decoration-line: none;
+    align-content: center;
+}
+.csix ul {
+    list-style-type: none;
+}
+.csix a:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+#l5 {
+    font-size: x-small;
+}
+#l6 {
+    font-size:medium;
+
+}
+
+.cseven {
+    margin: 0px 3px 0px 0px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.cseven a{
+    height: 50px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    padding: 11px 9px 11px;
+    color: white;
+}
+.cseven a:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+#container2 {
+    height: 39px;
+    display: flex;
+    background-color: #222f3d;
+    justify-content: start;
+    align-items: center;
+}
+
+.one {
+    font-size: 15px;
+    margin-left: 10px;
+}
+.one a{
+    padding: 8px 9px;
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+}
+.one a:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.two {
+    font-size: 15px;
+    margin: 5px 0px 6px;
+}
+.two a{
+    padding: 8px 9px;
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    text-decoration-line: none;
+}
+.two a:hover{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}

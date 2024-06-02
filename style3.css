@@ -1,0 +1,48 @@
+* {
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.bone {
+    height: 350px;
+    background-image: url("amazon background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(0, 252, 210, 0.568);
+}
+.box1{
+    max-width: 275px;
+    margin:20px 15px 20px 0px;
+    background-color: white;
+    color: black;
+}
+.box1 ul{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.box1 ul li{
+    justify-content: center;
+    text-align: center;
+    word-break: keep-all;
+    list-style-type: none;
+}
+.box1 ul li img{
+    width: 275px;
+    height: 303px;
+}
+.box1 ul li a{
+     color: #007185;
+}
+.box1 ul li a:hover{
+    color: orange;
+}
